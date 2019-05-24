@@ -1,0 +1,49 @@
+.column {
+  float: left;
+  width: 20%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  width:75%;
+}
+th{
+	font-size: 20px;
+
+	text-align: left;
+	text-decoration: none;
+	background-color: white;
+	padding-left: 10px;
+	height:50%;
+	width:50%;
+}
+body{
+	font-size: 20px;
+	background-color: lightblue;
+}
+
+a{
+	text-decoration: none;
+	color:darkblue;
+}
+#tabl{
+	width:1000px;
+	border: 1px solid black;
+	border-radius: 5px;S
+
+}
+#cls{
+	width: 200px;
+
+
+}
+#th2{
+	height:60px;
+	background-color:grey;
+	color: white;
+	border-color:grey;
+
+}

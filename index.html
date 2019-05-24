@@ -1,0 +1,35 @@
+<?php
+
+ session_start();
+
+?>
+<html>
+<head>
+	<title>Tenant Login</title>
+	<link type= "text/css" rel="stylesheet" href="form.css">
+</head>
+<body style="font-size:18px; background-color: darkgreen">
+	<h1>Tenant Login</h1>
+	<form method="post" action="account.php">
+	<table>
+		<tr>
+			<th>Name</th><th><input id="cls" type="text" placeholder="your name"></th>
+		</tr>
+		<tr>
+			<th>Password</th><th><input id="cls" type="password" placeholder="password"></th>
+		</tr>
+		<tr>
+			<th>Click to login</th><th><input style="background-color: darkgreen; height:30px;border-radius:5px; color:white;" type="submit" value="Login"></th>
+		</tr>
+		<tr>
+			<th colspan="2"><p>Pleasea Login in with your details of a tenant so as to be able to access the previledges of an official tenant on the site. <br> Thank you.</p></th>
+		</tr>
+		<tr>
+			<th colspan="2"></th>
+		</tr>
+	</table>
+</form>
+<p style="text-align: center; color: white; font-size:20px">if you are not a registered Tenant please register so as to join and get the previledges og being part of this community<br>
+<button><a style="text-decoration: none;" href="register.html">REGISTER</a></button></p>
+</body>
+</html>
